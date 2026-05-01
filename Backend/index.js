@@ -57,7 +57,7 @@ app.get("/", (req, res) => {
 connectDB()
   .then(() => {
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`🚀 Server running on https://ai-powered-mock-interiview-3.onrender.com/`);
     });
   })
   .catch((err) => {

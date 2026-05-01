@@ -18,7 +18,7 @@ async function chatCompletion(messages, model = "mistralai/mixtral-8x7b-instruct
         headers: {
           "Content-Type": "application/json",
           Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
-          "HTTP-Referer": "http://localhost:5173",
+          "HTTP-Referer": "https://ai-powered-mock-interiview-3.onrender.com/",
           "X-Title": "InterviewPrepAI",
         },
         timeout: 30000,
